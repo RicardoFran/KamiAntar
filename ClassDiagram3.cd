@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KamiAntar.ChainOfResponsibility.BayarMenggunakanCash" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\BayarMenggunakanCash.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KamiAntar.ChainOfResponsibility.BayarMenggunakanKamiAntarWallet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\BayarMenggunakanKamiAntarWallet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KamiAntar.Decorator.ContentLayanan" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\ContentLayanan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KamiAntar.Decorator.ContentLayananDecorator" Collapsed="true">
+    <Position X="10.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\ContentLayananDecorator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KamiAntar.Decorator.JenisContentLayanan.ExpressContentLayananDecorator" Collapsed="true">
+    <Position X="9" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\JenisContentLayanan\ExpressContentLayananDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Decorator.JenisContentLayanan.RegulerContentLayananDecorator" Collapsed="true">
+    <Position X="11.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\JenisContentLayanan\RegulerContentLayananDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Driver" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAAoAAggAAQAAIAAAAEiAAAAAAAEAFA=</HashCode>
+      <FileName>Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Layanan" Collapsed="true">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAAAAAAAAAAAIAxAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layanan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Program" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAAAAQgAAAAAQAAAAAEQUQIAAIACAAJAgAAAQ=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.User" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAQAABAJAAgAAAQAAAAAIAACIAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Factory.AbstractPilihanPelayanan" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractPilihanPelayanan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Factory.PilihLayanan" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\PilihLayanan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Factory.JenisLayanan.AntarBarang" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\JenisLayanan\AntarBarang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Factory.JenisLayanan.AntarJemput" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\JenisLayanan\AntarJemput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Singleton.ListDriver" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Singleton\ListDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Singleton.ListUser" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAQAAAAAAAAAAAAAAAAAABAIAAAAAAAIAAAAAQ=</HashCode>
+      <FileName>Singleton\ListUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamiAntar.Strategy.JenisPembayaran.Cash" BaseTypeListCollapsed="true">
+    <Position X="3" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\JenisPembayaran\Cash.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KamiAntar.Strategy.JenisPembayaran.KamiAntarWallet" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\JenisPembayaran\KamiAntarWallet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="KamiAntar.ChainOfResponsibility.IValidatorBayar" Collapsed="true">
+    <Position X="15" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\IValidatorBayar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="KamiAntar.Decorator.IContentLayanan" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\IContentLayanan.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="KamiAntar.Strategy.IStrategiPembayaran">
+    <Position X="2" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\IStrategiPembayaran.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

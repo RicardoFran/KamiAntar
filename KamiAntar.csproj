@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A95B65A0-A322-4520-B91D-7D5459272D43}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>KamiAntar</RootNamespace>
+    <AssemblyName>KamiAntar</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder\BarangBuildable.cs" />
+    <Compile Include="Builder\BarangBuilder.cs" />
+    <Compile Include="Builder\Tambah1BarangBuilder.cs" />
+    <Compile Include="Builder\Tambah1BarangBuildable.cs" />
+    <Compile Include="ChainOfResponsibility\BayarMenggunakanKamiAntarWallet.cs" />
+    <Compile Include="ChainOfResponsibility\BayarMenggunakanCash.cs" />
+    <Compile Include="ChainOfResponsibility\IValidatorBayar.cs" />
+    <Compile Include="Decorator\ContentLayanan.cs" />
+    <Compile Include="Decorator\ContentLayananDecorator.cs" />
+    <Compile Include="Decorator\IContentLayanan.cs" />
+    <Compile Include="Decorator\JenisContentLayanan\RegulerContentLayananDecorator.cs" />
+    <Compile Include="Decorator\JenisContentLayanan\ExpressContentLayananDecorator.cs" />
+    <Compile Include="Driver.cs" />
+    <Compile Include="ListException\DriverTidakAdaException.cs" />
+    <Compile Include="ListException\HistoryMasihKosongException.cs" />
+    <Compile Include="ListException\KamiAntarWalletTidakCukup.cs" />
+    <Compile Include="ListException\NamaTidakAdaException.cs" />
+    <Compile Include="Factory\AbstractPilihanPelayanan.cs" />
+    <Compile Include="Factory\JenisLayanan\AntarBarang.cs" />
+    <Compile Include="Factory\JenisLayanan\AntarJemput.cs" />
+    <Compile Include="Factory\PilihLayanan.cs" />
+    <Compile Include="ListException\InvalidInputException.cs" />
+    <Compile Include="Layanan.cs" />
+    <Compile Include="ListException\NamaSudahAdaException.cs" />
+    <Compile Include="Observer\ConcreteObserver.cs" />
+    <Compile Include="Observer\Observer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\ListDriver.cs" />
+    <Compile Include="Singleton\ListUser.cs" />
+    <Compile Include="Strategy\IStrategiPembayaran.cs" />
+    <Compile Include="Strategy\JenisPembayaran\Cash.cs" />
+    <Compile Include="Strategy\JenisPembayaran\KamiAntarWallet.cs" />
+    <Compile Include="Template\MasterTemplate.cs" />
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

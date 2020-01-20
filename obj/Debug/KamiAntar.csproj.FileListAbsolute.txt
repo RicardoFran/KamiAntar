@@ -1,0 +1,44 @@
+D:\Workspace_VisualStudio\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe.config
+D:\Workspace_VisualStudio\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe
+D:\Workspace_VisualStudio\KamiAntar\KamiAntar\bin\Debug\KamiAntar.pdb
+D:\Workspace_VisualStudio\KamiAntar\KamiAntar\obj\Debug\KamiAntar.exe
+D:\Workspace_VisualStudio\KamiAntar\KamiAntar\obj\Debug\KamiAntar.pdb
+G:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe.config
+G:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe
+G:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.pdb
+G:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.exe
+G:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.pdb
+G:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csprojResolveAssemblyReference.cache
+F:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe.config
+F:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe
+F:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.pdb
+F:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csprojResolveAssemblyReference.cache
+F:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.exe
+F:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.pdb
+L:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe.config
+L:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe
+L:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.pdb
+L:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csprojResolveAssemblyReference.cache
+L:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csproj.CoreCompileInputs.cache
+L:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.exe
+L:\jim\Kuliah\sem 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.pdb
+D:\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csproj.CoreCompileInputs.cache
+D:\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe.config
+D:\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe
+D:\KamiAntar\KamiAntar\bin\Debug\KamiAntar.pdb
+D:\KamiAntar\KamiAntar\obj\Debug\KamiAntar.exe
+D:\KamiAntar\KamiAntar\obj\Debug\KamiAntar.pdb
+D:\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csprojResolveAssemblyReference.cache
+F:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe.config
+F:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe
+F:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\bin\Debug\KamiAntar.pdb
+F:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csprojResolveAssemblyReference.cache
+F:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.exe
+F:\Collage\Semester 4\PDPL\KamiAntar\KamiAntar\obj\Debug\KamiAntar.pdb
+C:\Users\carlc\Desktop\TUBES\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csprojResolveAssemblyReference.cache
+C:\Users\carlc\Desktop\TUBES\KamiAntar\KamiAntar\obj\Debug\KamiAntar.csproj.CoreCompileInputs.cache
+C:\Users\carlc\Desktop\TUBES\KamiAntar\KamiAntar\obj\Debug\KamiAntar.exe
+C:\Users\carlc\Desktop\TUBES\KamiAntar\KamiAntar\obj\Debug\KamiAntar.pdb
+C:\Users\carlc\Desktop\TUBES\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe.config
+C:\Users\carlc\Desktop\TUBES\KamiAntar\KamiAntar\bin\Debug\KamiAntar.exe
+C:\Users\carlc\Desktop\TUBES\KamiAntar\KamiAntar\bin\Debug\KamiAntar.pdb
